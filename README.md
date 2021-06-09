@@ -15,4 +15,4 @@ Tengo dos hijos perrunos Chihuahuas, Hannah (7) y Sherlock (2), que me son mi in
 
 (2) Me llamo Lucas Hirsch, me dicen Luke o Kuke, o similares. Soy egresado de Diseño de Imagen y Sonido de la UBA. Actualmente productor de programa de tirada diaria de TV Pública. Tengo dos gatos, y me gusta andar en moto. Antes de la pandemia trabajaba en publicidad y con el cambio social, pasé a tele.
 
-(3)
+(3) Me llamo Christian Leonel Pazos tengo 27 años. Soy egresados en tecnicatura superior en analista de sistema en el instituto Raúl Scalabrini Ortiz en la ciudad de buenos aires.  también hise curso de computación   en el centro de formación profesional n°10 Raúl Scalabrini Ortiz en la ciudad de Buenos Aires 
