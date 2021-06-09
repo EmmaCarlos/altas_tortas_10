@@ -1,4 +1,4 @@
-# grupo-10-venta-de-tortas
+# grupo-10-Altas-Tortas
 Sobre el Sitio:
 "Altas Tortas" ofrece una amplia variedad de productos del mundo de la repostería. 
 Siempre lo más importante de las fiestas es la mesa dulce y en estos tiempos de aislamiento, por más que
@@ -13,6 +13,6 @@ Sobre Nosotros:
 (1) Me llamó Maria Victoria Pavón Roust y tengo 21 años. Trabajo como administrativa en una cooperativa de ingeniería y mantenimiento urbano.
 Tengo dos hijos perrunos Chihuahuas, Hannah (7) y Sherlock (2), que me son mi inspiración para estudiar programación, ingeniería y no renunciar a mi laburo.
 
-(2)
+(2) Me llamo Lucas Hirsch, me dicen Luke o Kuke, o similares. Soy egresado de Diseño de Imagen y Sonido de la UBA. Actualmente productor de programa de tirada diaria de TV Pública. Tengo dos gatos, y me gusta andar en moto. Antes de la pandemia trabajaba en publicidad y con el cambio social, pasé a tele.
 
 (3)
