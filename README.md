@@ -10,9 +10,22 @@ La audiencia objetivo tiene pocas barreras etarias y de género, aunque entendem
 consumidores sean de entre 20 y 40 años, mayoritariamente mujeres, con opciones para audiencias de medio y alto poder adquisitivo.
 
 Sobre Nosotros:
-(1) Me llamó Maria Victoria Pavón Roust y tengo 21 años. Trabajo como administrativa en una cooperativa de ingeniería y mantenimiento urbano.
+(1) Me llamo María Victoria Pavón Roust y tengo 21 años. Trabajo como administrativa en una cooperativa de ingeniería y mantenimiento urbano.
 Tengo dos hijos perrunos Chihuahuas, Hannah (7) y Sherlock (2), que me son mi inspiración para estudiar programación, ingeniería y no renunciar a mi laburo.
 
 (2) Me llamo Lucas Hirsch, me dicen Luke o Kuke, o similares. Soy egresado de Diseño de Imagen y Sonido de la UBA. Actualmente productor de programa de tirada diaria de TV Pública. Tengo dos gatos, y me gusta andar en moto. Antes de la pandemia trabajaba en publicidad y con el cambio social, pasé a tele.
 
-(3) Me llamo Christian Leonel Pazos tengo 27 años. Soy egresados en tecnicatura superior en analista de sistema en el instituto Raúl Scalabrini Ortiz en la ciudad de buenos aires.  también hise curso de computación   en el centro de formación profesional n°10 Raúl Scalabrini Ortiz en la ciudad de Buenos Aires 
+(3) Me llamo Christian Leonel Pazos tengo 27 años. Soy egresados en tecnicatura superior en analista de sistema en el instituto Raúl Scalabrini Ortiz en la ciudad de buenos aires.  también hise curso de computación en el centro de formación profesional n°10 Raúl Scalabrini Ortiz en la ciudad de Buenos Aires 
+
+
+Listado de referencias de webs temáticas:
+
+https://www.valuramallo.com
+
+https://nuchabakery.mitiendanube.com
+
+https://deubel.mitiendanube.com
+
+https://www.violetamassey.com.ar
+
+https://www.hechoenlapasteleria.com.ar
