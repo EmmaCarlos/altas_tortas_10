@@ -1,4 +1,4 @@
-# grupo-10-Altas-Tortas
+# grupo_10_altastortas
 Sobre el Sitio:
 "Altas Tortas" ofrece una amplia variedad de productos del mundo de la repostería. 
 Siempre lo más importante de las fiestas es la mesa dulce y en estos tiempos de aislamiento, por más que
