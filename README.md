@@ -22,9 +22,9 @@ Listado de referencias de webs temáticas: Estas son los MarketPlace que nos ins
 
 https://www.valuramallo.com              De la web de Valu Ramallo reconocemos que nos parece interesante su header y su manera de presentar los productos en el MarketPlace.
 
-https://nuchabakery.mitiendanube.com     De Nucha su página de inicio de sesión y crear cuenta el modelo a seguir que queremos para nuestra web.
+https://nuchabakery.mitiendanube.com     De Nucha su página de inicio de sesión y crear cuenta es el modelo a seguir que queremos para nuestra web.
 
-https://deubel.mitiendanube.com          Reconocemos que de Deubel no nos parece estético que haya productos que tengan distinto tamaño, pero nos interesa que tiene muchas categorías que nos van a servir al momento de categorizar nuestros productos
+https://deubel.mitiendanube.com          Reconocemos que de Deubel no nos parece estético que haya productos que tengan distinto tamaño, pero nos interesa que tiene muchas categorías que nos van a servir al momento de categorizar nuestros productos.
 
 https://www.violetamassey.com.ar          La elegancia y prolijidad que transmite Violeta Massey era la que inicialmente queríamos para nuestra web, pero viendo otras páginas decidimos agregar colores y no dejarlo tan neutro.
 
