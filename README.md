@@ -18,14 +18,14 @@ Tengo dos hijos perrunos Chihuahuas, Hannah (7) y Sherlock (2), que me son mi in
 (3) Me llamo Christian Leonel Pazos tengo 27 años. Soy egresados en tecnicatura superior en analista de sistema en el instituto Raúl Scalabrini Ortiz en la ciudad de buenos aires.  También hice curso de computación en el centro de formación profesional n°10 Raúl Scalabrini Ortiz en la ciudad de Buenos Aires.
 
 
-Listado de referencias de webs temáticas: Estas son los MarketPlace que nos inspiraron a hacer nuestro wireframe, principalmente por la estética. Tienen al mismo público objetivo que nuestro cliente y eso es lo que necesitamos para nuestra web. Especificaremos que nos gusta de cada web.
+Listado de referencias de webs temáticas: Estas son los MarketPlace que nos inspiraron a hacer nuestro wireframe, principalmente por la estética. Tienen al mismo público objetivo que nuestro cliente y eso es lo que necesitamos para nuestra web. Especificaremos que nos pareció cada web.
 
-https://www.valuramallo.com               Nos gusta su Home, su Register y su Log in
+https://www.valuramallo.com              De la web de Valu Ramallo reconocemos que nos parece interesante su header y su manera de presentar los productos en el MarketPlace.
 
-https://nuchabakery.mitiendanube.com      Nos gusta su Productos, Carrito y Register
+https://nuchabakery.mitiendanube.com     De Nucha su página de inicio de sesión y crear cuenta el modelo a seguir que queremos para nuestra web.
 
-https://deubel.mitiendanube.com           Nos gusta
+https://deubel.mitiendanube.com          Reconocemos que de Deubel no nos parece estético que haya productos que tengan distinto tamaño, pero nos interesa que tiene muchas categorías que nos van a servir al momento de categorizar nuestros productos
 
-https://www.violetamassey.com.ar          Nos gusta
+https://www.violetamassey.com.ar          La elegancia y prolijidad que transmite Violeta Massey era la que inicialmente queríamos para nuestra web, pero viendo otras páginas decidimos agregar colores y no dejarlo tan neutro.
 
-https://www.hechoenlapasteleria.com.ar    Nos gusta
+https://www.hechoenlapasteleria.com.ar    El logo con el fondo rosa y centrado no es lo mejor que tiene "Hecho en la Pastelería", pero es bastante llamativo que en el inicio se puedan ver las categorías con un estilo de mosaico. 
