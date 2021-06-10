@@ -18,14 +18,14 @@ Tengo dos hijos perrunos Chihuahuas, Hannah (7) y Sherlock (2), que me son mi in
 (3) Me llamo Christian Leonel Pazos tengo 27 años. Soy egresados en tecnicatura superior en analista de sistema en el instituto Raúl Scalabrini Ortiz en la ciudad de buenos aires.  También hice curso de computación en el centro de formación profesional n°10 Raúl Scalabrini Ortiz en la ciudad de Buenos Aires.
 
 
-Listado de referencias de webs temáticas: Estas son los MarketPlace que nos inspiraron a hacer nuestro wireframe, principalmente por la estética. Tienen al mismo público objetivo que nuestro cliente y eso es lo que necesitamos para nuestra web.
+Listado de referencias de webs temáticas: Estas son los MarketPlace que nos inspiraron a hacer nuestro wireframe, principalmente por la estética. Tienen al mismo público objetivo que nuestro cliente y eso es lo que necesitamos para nuestra web. Especificaremos que nos gusta de cada web.
 
-https://www.valuramallo.com
+https://www.valuramallo.com               Nos gusta su Home, su Register y su Log in
 
-https://nuchabakery.mitiendanube.com
+https://nuchabakery.mitiendanube.com      Nos gusta su Productos, Carrito y Register
 
-https://deubel.mitiendanube.com
+https://deubel.mitiendanube.com           Nos gusta
 
-https://www.violetamassey.com.ar
+https://www.violetamassey.com.ar          Nos gusta
 
-https://www.hechoenlapasteleria.com.ar
+https://www.hechoenlapasteleria.com.ar    Nos gusta
