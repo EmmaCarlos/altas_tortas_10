@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    background-color: #dfdfdff8;
+}
+
+.formularioLogin{
+    padding: 1.2rem 1rem;
+    margin: auto;
+}
+.controlFormulario{
+    margin-bottom: 1rem;
+}
+
+.controlFormulario label{
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.control{
+    width: 100%;
+    padding: .5rem;
+    border: 0;
+    border-radius: .4rem;
+}
+
+#contenedorBotones{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.button{
+    background-color: #EC018A;
+    border-radius: .4rem;
+    border: 0;
+    color: white;
+    padding: .5rem;
+}
+
+.button:hover{
+    background-color: #CDB3DB;
+}

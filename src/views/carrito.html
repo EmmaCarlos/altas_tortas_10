@@ -1,0 +1,160 @@
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio HTML</title>
+  
+    <!-- Librerias -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    
+     <!-- Estilos personales-->
+    <link href="/css/header2.css" rel="stylesheet">
+    <link href="/css/footer.css" rel="stylesheet">
+    <link href="/css/home2.css" rel="stylesheet">
+    <link href="/css/formregistro.css" rel="stylesheet">
+    <link href="/css/formlogin.css" rel="stylesheet">
+    <link href="/css/carrito.css" rel="stylesheet">
+  </head>
+  
+  <body>
+  <!-- Header -->
+  <header>
+    <a href="/">
+        <figure>
+          <img src="/img/LOGO TRANSPARENTE CON TEXTO G10.png">
+        </figure>
+    </a>
+    <form action="/search" method="GET"> 
+      <input type="text" name="keyword" id="keyword" placeholder="¿Qué torta querías?" >
+      <button type="submit"> 
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+  
+    <section>
+      <nav id="copyheader">
+          <ul>
+              <li>
+                <a href="/register">
+                  <i class="fas fa-user-plus"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/contacto">
+                  <i class="fas fa-comment-alt"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/login">
+                <i class="fas fa-user"></i></i>
+                </a>
+              </li>
+              <li>
+                <a href='/carrito'>
+                  <i class="fas fa-shopping-basket"></i>
+                </a>
+              </li>
+          </ul>
+        </nav> 
+    </section>
+  </header> 
+  <!-- Fin del Header -->
+  <!-- Main -->
+      <main>
+        <div class="carrito-vacio">
+          <div class="contenedor-vacio">
+            <div class="head">
+            <div id="titulo-carrito">Bienvenido al Carrito de Compras de Alta Tortas </div>
+            <div class="head-right">
+            <div class="prog-wizard">
+              <!-- barra wizard -->
+                  <ul class="wizard-steps">
+                              <li data-target="#step1" class="active">
+                              <span class="step">1</span>
+                                            </li>
+        
+                              <li data-target="#step2" class="">
+                              <span class="step">2</span>
+                                            </li>
+        
+                              <li data-target="#step3" class="">
+                              <span class="step">3</span>
+                               </li>
+                        </ul>
+            </div>
+            <span class="etiq-porfav">Por favor REVISA tu carrito de Compras</span>
+            </div>
+            </div>
+            <div class="nohay-productos">
+              <div class="aviso-vacio">
+                <i class="cad1 fa fa-cart-arrow-down fa-5x "></i> 
+                <div class="text-vacio">
+                  ¡Su carrito esta vacío!
+                  <div class="slide-header">
+                   <i class="sad1 fa fa-frown-o" onmouseover="this.className='hap1 fa fa-smile-o'" onmouseout="this.className='sad1 fa fa-frown-o'"></i>
+                  </div>
+                  <div class="slide-content">
+                     ¡Vamos a Comprar!<i class="carcomp fa fa-shopping-cart faa-horizontal animated"></i>
+                  </div>
+              </div>
+             </div>
+            </div>
+            <div class="botones-bot4">
+              <br>
+              <button type="button" class="botn-seguir4 btn-primary faa-parent animated-hover"><i class="cp2 fa fa-cart-plus faa-horizontal faa-slow"></i>Ir a Comprar</button>
+              <button type="button" disabled class="botnPago4 btn-default">Proceder al Pago<i class="cc4 fa fa-credit-card"></i></button>
+            </div>
+          </div>
+        </div>
+      </main>
+  <!-- Footer -->
+  <footer>
+    <section id="footer1"></section>
+   <ul>
+     <li>
+      <i class="fas fa-home"></i>
+      <h3>Retiralo en la tienda</h3>
+      <h3>o recibilo en tu casa</h3>
+    </li>
+     
+    <li>
+      <i class="fas fa-dollar-sign"></i>
+      <h3>Pagá en cuotas</h3>
+      <h3>o en efectivo</h3>
+    </li>
+     
+    <li>
+      <i class="fas fa-user-shield"></i>
+      <h3>¡Sitio seguro!</h3>
+      <h3>Protegemos tus datos</h3>
+    </li>
+  </ul>
+  </section>
+  <section id="footer2">
+    <ul>
+     <li>
+        <a href="/productos"> 
+       <h2>TIENDA</h2></a>
+       <h3>Frescas</h3>
+       <h3>Livianas</h3>
+       <h3>Pesadas</h3>
+     </li>
+      
+     <li>
+        <a href="/contacto"> 
+        <h2>CONTACTANOS</h2></a>
+        <h3>Calle Falsa 123</h3>
+        <h3>mailfalso123@gmail.com</h3>
+        <h3>11-6465-4654</h3>
+     </li>
+   </ul>
+  <p>Copyright © 2021 Grupo10 AltasTortas S.R.L.</p>
+  </section>
+  
+  
+  
+  </footer>
+  
+  </body>  
