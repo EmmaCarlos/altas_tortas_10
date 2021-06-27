@@ -1,4 +1,55 @@
+main{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 nav.navproducto {
     display: flex;
     flex-flow: row wrap;
+    width: 100%;
+    margin-left: 1rem;
+}
+nav.navproducto a{
+    padding-left: .5rem;
+}
+#productdetail {
+    display: flex;
+    width: 90vw;
+    flex-flow: column wrap;
+}
+figure#fotoproducto {
+    width: 100%;
+}
+figure#fotoproducto img{
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+}
+section#productdetail article{
+justify-content: start;
+font-size: 1.25rem;
+display: flex;
+}
+section#productdetail h3{
+    width: 100vw;
+}
+section#productdetail p{
+    width: 100vw;
+}
+@media (min-width: 768px) {
+    #productdetail {
+        flex-flow: row wrap;
+    }
+    figure#fotoproducto {
+        width: 45%;
+        margin-right: 5%;
+    }
+    
+}
+@media (min-width: 1200px) {
+    section#productdetail article{
+        width: 50%;
+        
+        }
 }

@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio HTML</title>
+    <title>AltasTortas</title>
   
     <!-- Librerias -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -60,25 +60,52 @@
   <!-- Section -->
   <nav class= "navproducto">
     <a href="/home">Home</a>
-    <a href="/productos">/Productos</a>
-    <a href="/productdetail">/Torta de ejemplo</a>
+    <a href="/productos">/ Productos</a>
+    <a href="/productdetail">/ Torta de ejemplo</a>
   </nav>
   <section id="productdetail">
-      <article id="izq">
-        <figure>	
-            <img src="/img/BANANASPLIT.jpg" alt="imagen BANANASPLIT">
-          </figure>
-      </article>
-      <article id="der">
+    <figure id= "fotoproducto">	
+      <img src="/img/BANANASPLIT.jpg" alt="imagen BANANASPLIT" >
+    </figure>
+    <article>
+      <h3>Banana Split </h3>
+      <p>
+        <i class="fas fa-dollar-sign"></i>
+        2.300
+      </p>
+      <p>
+        <i class="fas fa-credit-card"></i>
+        Pagá hasta en 18 cuotas 
+      </p>
 
-      </article>
+      <form action="/carrito" method="POST">
+        
+        <fieldset>
+          <label>Cantidad</label>
+          <input type="number" name="cantidad" required>
+        </fieldset>
+        <fieldset>
+          <button type="submit">
+            Agregar al carrito
+          </button>
+        </fieldset>
+      </form>
+      <ul>
+        <li> Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+      </ul>
+
+    </article>
   </section>
+
   <section class="productos">
     <h3 class="titulares">Productos relacionados</h3>
     <!-- Article -->
       <article>
         <figure>	
-          <img src="/img/BANANASPLIT.jpg" alt="imagen BANANASPLIT" width="300">
+          <img src="/img/BANANASPLIT.jpg" alt="imagen BANANASPLIT">
         </figure>
         <section>
           <h3 class="descripciones">Banana Split</h3>
@@ -91,7 +118,7 @@
     <!-- Article -->
     <article>
       <figure>	
-        <img src="/img/BOMBA.jpg" alt="imagen BOMBA" width="300">
+        <img src="/img/BOMBA.jpg" alt="imagen BOMBA" >
       </figure>
       <section>
         <h3 class="descripciones">Bomba</h3>
@@ -104,7 +131,7 @@
   <!-- Article -->
   <article>
     <figure>	
-      <img src="/img/BONOBON.jpg" alt="imagen BONOBON" width="300">
+      <img src="/img/BONOBON.jpg" alt="imagen BONOBON">
     </figure>
     <section>
       <h3 class="descripciones">Bonobón</h3>
@@ -117,7 +144,7 @@
   <!-- Article -->
   <article>
     <figure>	
-      <img src="/img/CHEESECAKE.jpg" alt="imagen CHEESECAKE" width="300">
+      <img src="/img/CHEESECAKE.jpg" alt="imagen CHEESECAKE">
     </figure>
     <section>
       <h3 class="descripciones">Cheesecake</h3>
