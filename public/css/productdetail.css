@@ -1,0 +1,4 @@
+nav.navproducto {
+    display: flex;
+    flex-flow: row wrap;
+}
