@@ -1,0 +1,47 @@
+<%- include("includes/head") %> 
+
+<body>
+<!-- Header -->
+<%- include("includes/header") %> 
+<!-- Fin del Header -->
+<!-- Main -->
+<main>
+<!-- Formularios -->
+
+<form action="" method="POST" class="formularioRegistro">
+  <div class="controlFormulario">
+      <input class="control" type="text" name="nombre" placeholder="Nombre y Apellido" required minlength="5">
+  </div>
+  <div class="controlFormulario">
+      <input class="control" type="text" name="nombreUsuario" placeholder="Nombre de usuario" required>
+  </div>
+  <div class="controlFormulario">
+      <input class="control" type="email" name="E-mail" placeholder="E-mail" required minlength="7">
+  </div>
+  <div class="controlFormulario" id="nacimientos">
+      <h3>Fecha de nacimiento</h3>
+      <input class="control" type="date" name="nacimiento" placeholder="Nombre y apellido" required>
+  </div>
+  <div class="controlFormulario">
+      <input class="control" type="text" name="domicilio" placeholder="Domicilio" required>
+  </div>
+  <div class="controlFormulario" id="fotoPerfil">
+      <h3>Subí una imagen para generar tu avatar</h3>
+      <input type="file" name="foto" id="Subirfoto">
+  </div>
+  <div class="controlFormulario">
+      <input class="control" type="password" name="password" placeholder="Contraseña" required minlength="8">
+  </div>
+  <div class="controlFormulario">
+      <input class="control" type="password" name="password" placeholder="Confirmar contraseña" required minlength="8">
+  </div>
+  <section id="contenedorBotones">
+  <button class="button" type="submit">Registrar</button>
+  <button class="button" type="reset">Borrar</button>
+  </section>
+</form>
+<!-- Cierre del Form -->
+</main>
+<!-- Footer -->
+<%- include("includes/footer") %> 
+</body>

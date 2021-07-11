@@ -1,0 +1,121 @@
+<%- include("includes/head") %> 
+
+<body>
+<!-- Header -->
+<%- include("includes/header") %> 
+<!-- Fin del Header -->
+  <!-- Main -->
+  <main>
+  <!-- Section -->
+  <nav class= "navproducto">
+    <a href="/home">Home</a>
+    <a href="/productos">/ Productos</a>
+    <a href="/productdetail">/ Torta de ejemplo</a>
+  </nav>
+  <section id="productdetail">
+    <figure id= "fotoproducto">	
+      <img src="/img/BANANASPLIT.jpg" alt="imagen BANANASPLIT" >
+    </figure>
+    <article>
+      <h3>Banana Split </h3>
+      <p>
+        <i class="fas fa-dollar-sign"></i>
+        2.300
+      </p>
+      <p>
+        <i class="fas fa-credit-card"></i>
+        Pagá hasta en 18 cuotas 
+      </p>
+
+      <form action="/carrito" method="POST">
+        
+        <fieldset>
+          <label>Cantidad</label>
+          <input type="number" name="cantidad" required>
+        </fieldset>
+        <fieldset>
+          <button type="submit">
+            Agregar al carrito
+          </button>
+        </fieldset>
+      </form>
+      <ul>
+        <li> Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+      </ul>
+
+    </article>
+  </section>
+
+  <section class="productos">
+    <h3 class="titulares">Productos relacionados</h3>
+    <!-- Article -->
+      <article>
+        <figure>	
+          <img src="/img/BANANASPLIT.jpg" alt="imagen BANANASPLIT">
+        </figure>
+        <section>
+          <h3 class="descripciones">Banana Split</h3>
+          <p class="precios">$2100</p>
+          <p class="botonproductos">Ver más info</p>
+  
+        </section>
+      </article>
+    <!-- Fin de Article -->
+    <!-- Article -->
+    <article>
+      <figure>	
+        <img src="/img/BOMBA.jpg" alt="imagen BOMBA" >
+      </figure>
+      <section>
+        <h3 class="descripciones">Bomba</h3>
+        <p class="precios">$2300</p>
+        <p class="botonproductos">Ver más info</p>
+  
+      </section>
+    </article>
+  <!-- Fin de Article -->
+  <!-- Article -->
+  <article>
+    <figure>	
+      <img src="/img/BONOBON.jpg" alt="imagen BONOBON">
+    </figure>
+    <section>
+      <h3 class="descripciones">Bonobón</h3>
+      <p class="precios">$2500</p>
+      <p class="botonproductos">Ver más info</p>
+  
+    </section>
+  </article>
+  <!-- Fin de Article -->
+  <!-- Article -->
+  <article>
+    <figure>	
+      <img src="/img/CHEESECAKE.jpg" alt="imagen CHEESECAKE">
+    </figure>
+    <section>
+      <h3 class="descripciones">Cheesecake</h3>
+      <p class="precios">$2200</p>
+      <p class="botonproductos">Ver más info</p>
+  
+    </section>
+  </article>
+  <!-- Fin de Article -->
+  </section>
+  <!-- Fin del Section -->
+  <section class="productos">
+    <a href="/productos" class="botonproductos">Ver todos los productos</a>
+  
+    
+    
+    <a href="/contacto">
+      <h3 class="titulares">¿Tenés alguna duda? Contactanos</h3>
+    </a>
+  </section>
+  <!-- Fin del Section -->
+  </main>
+<!-- Footer -->
+<%- include("includes/footer") %> 
+</body>

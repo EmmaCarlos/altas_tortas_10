@@ -1,0 +1,25 @@
+<%- include("includes/head") %> 
+
+<body>
+<!-- Header -->
+<%- include("includes/header") %> 
+<!-- Fin del Header -->
+<!-- Main -->
+    <main>
+<!-- Formularios -->
+<form action="" method="POST" class="formularioLogin">
+  <fieldset class="controlFormulario">
+      <input class="control" type="text" name="nombreUsuario" placeholder="Nombre de usuario" required>
+  </fieldset>
+
+  <fieldset class="controlFormulario">
+      <input class="control" type="password" name="password" placeholder="Contraseña">
+  </fieldset>
+  <section id="contenedorBotones">
+  <button class="button" type="submit">Entrar</button>
+  </section>
+  </form>
+    </main>
+<!-- Footer -->
+<%- include("includes/footer") %> 
+</body>

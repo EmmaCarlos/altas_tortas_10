@@ -2,16 +2,19 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-
-app.listen(3000, ()=>{
-    console.log('Servidor funcionando');
-});
+app.set("port", process.env.PORT || 3000);
+app.listen(app.get("port"), () => console.log ("Server on http://localhost:"+app.get("port")));
 
 app.use(express.static(path.resolve(__dirname,'../public')));
 
-app.get('/', (req,res)=>{
-    res.sendFile(path.resolve(__dirname, './views','home.html'));
-});
+app.set("view engine", "ejs");
+app.set("views",path.resolve(__dirname,"./views"));
+
+const main = require('.routes/main');
+app.use(main)
+
+const productos = require('.routes/productos');
+app.use(productos)
 
 app.get('/login', (req,res)=>{
     res.sendFile(path.resolve(__dirname, './views', 'login.html'));
