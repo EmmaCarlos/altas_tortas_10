@@ -1,0 +1,58 @@
+<%- include("../includes/head") %> 
+
+<body>
+<!-- Header -->
+<%- include("../includes/header") %> 
+<!-- Fin del Header -->
+<!-- Main -->
+<main>
+
+<h3 class="titulares">¿Querés ingresar una nueva torta?</h3>
+<!-- Formularios -->
+
+<form action="upload" method="POST" class="formularioRegistro" enctype="multipart/form-data">
+    <div class="controlFormulario">
+      <input class="control" type="text" name="name" placeholder="Nombre de la torta" required minlength="3">
+    </div>
+
+    <div class="controlFormulario">
+        <div class="contenedorItems">
+            <input type="checkbox" name="category" value="1">
+            <label for="Fresca">Fresca</label>
+        </div>
+  
+  
+        <div class="contenedorItems">
+            <input type="checkbox" name="category" value="2">
+            <label for="Liviana">Liviana</label>
+        </div>
+  
+  
+        <div class="contenedorItems">
+            <input type="checkbox" name="category" value="3">
+            <label for="pesada">Pesada</label>
+        </div>
+
+    <div class="controlFormulario" id="fotoTorta">
+    <h3>Subí una imagen de la torta a registrar</h3>
+    <input type="file" name="imagen" id="Subirfoto">
+    </div>
+
+    <div class="controlFormulario">
+      <input class="control" type="number" name="precio" placeholder="Precio de la torta" required minlength="4">
+    </div>
+
+    <div class="controlFormulario">
+      <input class="control" type="text" name="descripcion" placeholder="Descripción de la torta" required>
+    </div>
+
+  <section id="contenedorBotones">
+  <button class="button" type="submit">Registrar Torta</button>
+  <button class="button" type="reset">Borrar</button>
+  </section>
+</form>
+<!-- Cierre del Form -->
+</main>
+<!-- Footer -->
+<%- include("../includes/footer") %> 
+</body>
