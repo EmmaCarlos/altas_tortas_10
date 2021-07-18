@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Marcos",
+        "lastName": "Perez",
+        "category": "comprador",
+        "imagen": "/img/AcaVaImgUsuario.jpg",
+        "Email": "marcosperez@gmail.com",
+        "Password": "Marcos.2003"
+    },
+    {
+        "id": 2,
+        "name": "Juan",
+        "lastName": "Rodriguez",
+        "category": "comprador",
+        "imagen": "/img/AcaVaImgUsuario2.jpg",
+        "Email": "juanrodriguez@gmail.com",
+        "Password": "juanR1234"
+    }
+]
