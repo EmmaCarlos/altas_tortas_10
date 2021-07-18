@@ -14,22 +14,24 @@
 <!-- Section -->
 <section class="productos">
   <h3 class="titulares">¡No llegues a esa ocasión especial sin una SUPER TORTA!</h3>
-  <%productos.forEach(producto => { %>
+
+  <% productos.forEach(producto => { %>
    
-  
   <!-- Article -->
     <article>
       <figure>	
         <img src="<%=producto.imagen  %> " alt="imagen BANANASPLIT">
       </figure>
       <section>
-        <h3 class="descripciones">Banana Split</h3>
-        <p class="precios">$2100</p>
+        <h3 class="descripciones"><%= producto.name %> </h3>
+        <p class="precios">$<%= producto.precio %></p>
         <a href='/productos/detalle/<%= producto.id %>'  class="botonproductos">Ver más info</a>
       </section>
     </article>
   <!-- Fin de Article -->
-  <% }) %> 
+
+  <% }) %>
+ 
 
 </section>
 <!-- Fin del Section -->
