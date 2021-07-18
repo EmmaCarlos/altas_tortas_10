@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const category = require("category");
+const category = require("./category");
 module.exports = {
     // Directory: ruta al json con el que se va a estar modificando el modelo
     directory: path.resolve(__dirname,"../data","products.json"),

@@ -1,17 +1,27 @@
 const product = require ("../models/product")
 module.exports = {
-    index: (req, res) => res.render("products/list", {title: "Listado de productos", style: list, products: product.allWithExtra() }),
+    index: (req, res) => res.render("products/list", {title: "Listado de productos", style: "list", products: product.allWithExtra() }),
     show: (req, res) => res.render("products/detail", {title: "Detalles de producto", style: null }),
-    create: (req, res) => res.render("products/create",{title: "Crear producto", style: formregistro,// store: ???
-  }),
+    create: (req, res) => res.render("products/create",{title: "Crear producto", style: "formregistro",}), 
+    store: (req,res)=> { 
+      let data = req.body;
+     let file = req.file;
+     let product = products.create(data,file);
+
+   return res.redirect('/')
+
+    },
+  
+ 
+
     edit: (req, res) => res.render("products/edit", {title: "Edicion de producto", style: null }),
 }
 
-// store: (req, res) => {
+/* store: (req, res) => {
 
-//     let group = req.body;
+    let group = req.body;
 
-//     groupId = groupsModel.create(group);
+     groupId = groupsModel.create(group);
 
-//     res.redirect('/groups/' + groupId);
-// },
+    res.redirect('/groups/' + groupId);
+ },*/
