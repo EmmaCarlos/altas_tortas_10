@@ -15,6 +15,19 @@ module.exports = {
              element.category = category.one (element.category);
              return element;
             })},
+    // selecionar 4  productos de manera alatoria 
+    randomProducs: function(){
+        let productos = this.allWithExtra()
+      
+      let aleatorios = [];
+    for (let index = 0; index < 100; index++) {
+    let numero = Math.floor(Math.random() * productos.length + 1);
+    if(aleatorios.length < 4 && aleatorios.includes(numero) == false){
+    aleatorios.push(numero)
+  }
+} 
+      return productos.filter(producto => aleatorios.includes(producto.id))      
+    },
     //one: con el id nos devuelve el elemento único que corresponde
     one: function (id) {
         return this.all().find(element => element.id == id);
