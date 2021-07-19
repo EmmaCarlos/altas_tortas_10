@@ -8,15 +8,31 @@
       <main>
   <!-- Section -->
   <nav id="categorias">
-    <a href="/productos/frescas">Frescas</a>
-    <a href="/productos/livianas">Livianas</a>
-    <a href="/productos/pesadas">Pesadas</a>
+    <a href="/productos/fresca">Frescas</a>
+    <a href="/productos/liviana">Livianas</a>
+    <a href="/productos/pesada">Pesadas</a>
   </nav>
 <section class="productos">
   <h3 class="titulares">¡No llegues a esa ocasión especial sin una SUPER TORTA!</h3>
 
+<!-- querría poner que si llega req.params.category por url, muestre los productos que tienen ese category coincidente
+si no llega un req params, muestra todos los productos -->
 
-  <!-- Article -->
+
+  <%=  %> 
+  <% products.forEach(producto => { %>
+    <article>
+            <figure><img src="<%= producto.imagen%>" alt=""></figure>
+            <section>
+              <h3 class="descripciones"> <%= producto.name %></h3>
+              <p class="precios"> $<%= producto.precio %></p>
+              <a href='/productos/detalle/<%= producto.id %>'  class="botonproductos">Ver más info</a>
+            </section>
+    </article>        
+  <% }) %> 
+
+
+<!--
     <article>
       <figure>	
         <img src="/img/BANANASPLIT.jpg" alt="imagen BANANASPLIT" width="300">
@@ -28,8 +44,7 @@
 
       </section>
     </article>
-  <!-- Fin de Article -->
-  <!-- Article -->
+
   <article>
     <figure>	
       <img src="/img/BOMBA.jpg" alt="imagen BOMBA" width="300">
@@ -41,8 +56,7 @@
 
     </section>
   </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/BONOBON.jpg" alt="imagen BONOBON" width="300">
@@ -54,8 +68,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/COCO.jpg" alt="imagen COCO" width="300">
@@ -67,8 +80,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/DDLCREMA.jpg" alt="imagen DDLCREMA" width="300">
@@ -80,8 +92,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/DURAZNO.jpg" alt="imagen DURAZNO" width="300">
@@ -93,8 +104,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/FRUTILLA.jpg" alt="imagen FRUTILLA" width="300">
@@ -106,8 +116,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/HAVANNET.jpg" alt="imagen HAVANNET" width="300">
@@ -119,8 +128,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/KEYLIME.jpg" alt="imagen KEYLIME" width="300">
@@ -132,8 +140,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/LEMONPIE.jpg" alt="imagen LEMONPIE" width="300">
@@ -145,8 +152,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/MARACUYA.jpg" alt="imagen MARACUYA" width="300">
@@ -158,8 +164,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/MERENGUE.jpg" alt="imagen MERENGUE" width="300">
@@ -171,8 +176,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/NUTELLA.jpg" alt="imagen NUTELLA" width="300">
@@ -184,8 +188,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/OREO.jpg" alt="imagen OREO" width="300">
@@ -197,8 +200,7 @@
 
   </section>
 </article>
-<!-- Fin de Article -->
-<!-- Article -->
+
 <article>
   <figure>	
     <img src="/img/ROGEL.jpg" alt="imagen ROGEL" width="300">
@@ -209,8 +211,8 @@
     <p class="botonproductos">Ver más info</p>
 
   </section>
-</article>
-<!-- Fin de Article -->
+-->
+
 </section>
       </main>
   <!-- Footer -->

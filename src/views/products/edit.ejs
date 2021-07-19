@@ -1,0 +1,59 @@
+<%- include("../includes/head") %> 
+
+<body>
+<!-- Header -->
+<%- include("../includes/header") %> 
+<!-- Fin del Header -->
+<!-- Main -->
+<main>
+
+<h3 class="titulares">¿Querés modificar alguna torta?</h3>
+<!-- Formularios -->
+
+<form action="/productos/editar/<%= product.id %>?_method=PUT" method="POST" class="formularioRegistro" enctype="multipart/form-data">
+    <fieldset class="controlFormulario">
+      <input class="control" type="text" name="name" value="<%= product.name %>">
+    </fieldset>
+
+    <section class="controlFormulario">
+      <% categories.forEach(category => { %>
+      
+      <fieldset class="contenedorItems">
+        <% if (category.id == product.category.id) { %>
+          <input type="radio" name="category" value="<%= category.id %>" checked id="<%= category.id %>">
+          <% } else { %>
+          <input type="radio" name="category" value="<%= category.id %>" id="<%= category.id %>">
+        <% } %>
+          <label for="<%= category.id %>"><%= category.name %> </label>
+      </fieldset>
+      <% }) %>
+    </section>
+  
+  
+
+
+    <fieldset class="controlFormulario" id="fotoTorta">
+    <h3>Foto actual del producto</h3>
+    <figure><img src="<%=product.imagen%>" alt=""></figure>
+    <h4>Subir una nueva imagen?</h4>
+    <input type="file" name="imagen" id="Subirfoto">
+    </fieldset>
+
+    <fieldset class="controlFormulario">
+      <input class="control" type="number" name="precio" value="<%= product.precio %>">
+    </fieldset>
+
+    <fieldset class="controlFormulario">
+      <input class="control" type="text" name="descripcion" value="<%= product.descripcion %>">
+    </fieldset>
+
+  <section id="contenedorBotones">
+  <button class="button" type="submit">Editar Torta</button>
+  <button class="button" type="reset">Borrar</button>
+  </section>
+</form>
+<!-- Cierre del Form -->
+</main>
+<!-- Footer -->
+<%- include("../includes/footer") %> 
+</body>

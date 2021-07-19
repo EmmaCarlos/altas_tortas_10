@@ -16,6 +16,10 @@ module.exports = {
              return element;
             })},
     // selecionar 4  productos de manera alatoria 
+    porCategoria: function(category){
+      let productos = this.allWithExtra()
+      return productos.filter(producto => producto.category.name == category)
+    },
     randomProducs: function(){
         let productos = this.allWithExtra()
       
@@ -32,6 +36,9 @@ module.exports = {
     one: function (id) {
         return this.all().find(element => element.id == id);
     },
+    oneWithExtra: function (id) {
+      return this.allWithExtra().find(element => element.id == id);
+  },
     // para este sprint se necesita: mostrarlo, leerlo y poder seleccionar por producto
     //create: proximos sprints
     //edit: proximos sprints
