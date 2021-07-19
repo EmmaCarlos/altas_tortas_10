@@ -7,20 +7,20 @@
   <!-- Main -->
   <main>
   <!-- Section -->
-  <nav class= "navproducto">
+    <nav class= "navproducto">
     <a href="/home">Home</a>
     <a href="/productos/list">/ Productos</a>
-    <a href="/productos/detail">/ Torta de ejemplo</a>
+    <a href="/productos/detail">/<%= producto.name %></a>
   </nav>
   <section id="productdetail">
     <figure id= "fotoproducto">	
-      <img src="/img/BANANASPLIT.jpg" alt="imagen BANANASPLIT" >
+      <img src="<%= producto.imagen%>" alt="">
     </figure>
     <article>
-      <h3>Banana Split </h3>
+      <h3><%= producto.name %></h3>
       <p>
         <i class="fas fa-dollar-sign"></i>
-        2.300
+        $<%= producto.precio %>
       </p>
       <p>
         <i class="fas fa-credit-card"></i>
@@ -39,12 +39,9 @@
           </button>
         </fieldset>
       </form>
-      <ul>
-        <li> Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-      </ul>
+      <p>
+        <%= producto.descripcion %>
+      </p>
 
     </article>
   </section>

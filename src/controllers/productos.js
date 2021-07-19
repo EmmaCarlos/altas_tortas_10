@@ -7,7 +7,7 @@ module.exports = {
     style: null,
     products: (req.params.category)? product.porCategoria(req.params.category) : product.allWithExtra() }),
     
-    show: (req, res) => res.render("products/detail", {title: "Detalles de producto", style: null }),
+    show: (req, res) => res.render("products/detail",{producto:product.oneWithExtra(req.params.id), title: "Detalles de producto", style: "productdetail" }),
     create: (req, res) => res.render("products/create",{title: "Crear producto", style: "formregistro"}), 
     edit: (req, res) => res.render("products/edit", {title: "Edicion de producto", style: "formregistro", product: product.oneWithExtra(req.params.id), categories: category.all() }),
     test: (req, res) => res.send ({
