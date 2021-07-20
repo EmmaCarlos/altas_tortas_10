@@ -1,9 +1,9 @@
-La entrega del primer sprint fue realizada de manera un poco incomunicada y sin aprovechar al máximo el tiempo. Sobre este tema influye que los tres integrantes del equipo trabajamos o tenemos diversas ocupaciones durante la semana, por lo qe es dificultoso reunirnos, no así los fines de semana. Entendemos que nuestras entregas serían más prolijas de contar con más tiempo dedicado a la realización grupal, y eso nos hace correr con un poco de desventaja.
+La entrega del segundo sprint fue, de nuevo, realizada de manera un poco incomunicada. Arrastrando errores llegamos a la entrega de este sprint. Intervinieron docentes y tutores y aun así seguimos trastabillando. Una vez más volvimos a depender la mitad del trabajo en compartir una pantalla, y la otra mitad en hacer todo a última hora durante el fin de semana. Siendo el flujo de trabajo muy desmotivamente y tedioso. Logramos con la ayuda de Edu dividir algunos faltante que teníamos para la entrega, pero la última instancia del sprint quedó sobre la hora y sin las correcciones pertinentes. Deben ajustarse algunas cosas importantes.
 
 Temáticas de dinámica Estrella de Mar:
 
-1. Comenzar a hacer. Aún no pudimos trabajar de manera simultanea repartiendo labores, esta instancia facilitaría mucho el trabajo grupal.
-2. Hacer más. Probablemente nos falte más tiempo útil de código, tanto para explorar herramientas, jugar y explorar, como para realizar las consignas.
-3. Continuar haciendo. Nuestras reuniones de fin de semana son de horas largas y resultan útiles. Debemos aprovecharlas al máximo.
-4. Hacer menos. Es cierto que durante la semana nos es casi imposible reunirnos, pero también deberíamos dejar todas las actividades para el tiempo útil del fin de semana, y aprovechar durante la semana para organización u otras etapas.
-5. Dejar de hacer. Ninguno de los tres sabe más codigo que los demás, es solo cuestión de predisposición y responsabilidad. Debemos de tirar todos hacia el mismo lado y mostrar una actitud constante de progreso grupal.
+1. Comenzar a hacer. La implementación de tablero de trabajo y de dailys o weeklys, estimo estará ligado a nuestra capacidad de sectorización del trabajo y equidad de responsabilidad.
+2. Hacer más. Recién en este sprint, casi al final, logramos dividir el trabajo, aunque no haya tenido buenos resultados, a veces hay que tener la predisposición suficiente como para cada integrante hacer su parte, sino la entrega final será inevitablemente un colapso.
+3. Continuar haciendo. Aprovechar el tiempo útil y predisposición de los docentes, es viable adelantar partes del trabajo con tiempo e ir avanzando paulatinamente.
+4. Hacer menos. Durante la semana quizás nos es díficil coordinarnos, pero no debería sernos dificil el avanzar individualmente siempre que se pueda, en un contexto de división del trabajo.
+5. Dejar de hacer. Durante la semana entre tareas de las clases y los quehaceres de cada integrante, pareciera no ser una prioridad este trabajo integrador, pareciera no haber interés por cumplir con las entregas en tiempo y forma, mas que cubrir los casilleros básicos de la entrega y atar todo el resto con alambre
