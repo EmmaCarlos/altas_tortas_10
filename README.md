@@ -17,7 +17,7 @@ Tengo dos hijos perrunos Chihuahuas, Hannah (7) y Sherlock (2), que me son mi in
 
 (3) Me llamo Christian Leonel Pazos tengo 27 años. Soy egresados en tecnicatura superior en analista de sistema en el instituto Raúl Scalabrini Ortiz en la ciudad de buenos aires.  También hice curso de computación en el centro de formación profesional n°10 Raúl Scalabrini Ortiz en la ciudad de Buenos Aires.
 
-TRELLO: https://trello.com/b/RsOb1n80/grupo-10-altas-tortas-sprint-2
+TRELLO: https://trello.com/b/b1Lj5OnL/grupo-10-altas-tortas-sprint-3
 
 Listado de referencias de webs temáticas: Estas son los MarketPlace que nos inspiraron a hacer nuestro wireframe, principalmente por la estética. Tienen al mismo público objetivo que nuestro cliente y eso es lo que necesitamos para nuestra web. Especificaremos que nos pareció cada web.
 
