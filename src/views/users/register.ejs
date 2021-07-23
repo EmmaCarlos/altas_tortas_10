@@ -20,7 +20,7 @@
   </div>
   <div class="controlFormulario" id="nacimientos">
       <h3>Fecha de nacimiento</h3>
-      <input class="control" type="date" name="nacimiento" placeholder="Nombre y apellido" required>
+      <input class="control" type="date" name="nacimiento" required>
   </div>
   <div class="controlFormulario">
       <input class="control" type="text" name="domicilio" placeholder="Domicilio" required>
@@ -29,6 +29,17 @@
       <h3>Subí una imagen para generar tu avatar</h3>
       <input type="file" name="foto" id="Subirfoto">
   </div>
+  <div class="controlFormulario">
+    <div class="contenedorItems">
+        <input type="checkbox" name="categoryUser" value="Admin">
+        <label for="admin">Admin</label>
+    </div>
+
+
+    <div class="contenedorItems">
+        <input type="checkbox" name="categoryUser" value="cliente">
+        <label for="cliente">Cliente</label>
+    </div>
   <div class="controlFormulario">
       <input class="control" type="password" name="password" placeholder="Contraseña" required minlength="8">
   </div>

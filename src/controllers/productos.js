@@ -6,10 +6,40 @@ module.exports = {
     {title: "Listado de productos",
     style: null,
     products: (req.params.category)? product.porCategoria(req.params.category) : product.allWithExtra() }),
-    
-    show: (req, res) => res.render("products/detail",{producto:product.oneWithExtra(req.params.id), title: "Detalles de producto", style: "productdetail" }),
-    create: (req, res) => res.render("products/create",{title: "Crear producto", style: "formregistro"}), 
-    edit: (req, res) => res.render("products/edit", {title: "Edicion de producto", style: "formregistro", product: product.oneWithExtra(req.params.id), categories: category.all() }),
+    show: (req, res) => res.render("products/detail",
+    {producto:product.oneWithExtra(req.params.id),
+    title: "Detalles de producto",
+    style: "productdetail" }),
+/*     let product = productsModel.find(req.params.id);
+
+        if (product) {
+            res.render('products/detail', { product });
+        } else {
+            res.render('products/404', { 
+                message: {
+                    class: 'error-message',
+                    title: 'Inexistente',
+                    desc: 'El producto que buscas ya no existe, nunca existió y tal vez nunca exista.'
+                } */
+    create: (req, res) => res.render("products/create",
+    {title: "Crear producto", 
+    style: "formregistro"}),
+    /* save: (req,res) => {
+    let result = product.new(req.body,req.file)
+    return result == true ? res.redirect("/") : res.send("Error al cargar la informacion")   */
+    edit: (req, res) => res.render("products/edit", 
+    {title: "Edicion de producto", 
+    style: "formregistro", 
+    product: product.oneWithExtra(req.params.id), 
+    categories: category.all() }),
+/*  update: (req,res) =>{
+    let result = product.edit(req.body,req.file,req.params.id)
+    return result == true ? res.redirect("/") : res.send("Error al cargar la informacion") 
+    },
+    delete: (req,res) => {
+        let result = product.delete(req.params.id);
+        return result == true ? res.redirect("/") : res.send("Error al cargar la informacion") 
+    }, */
     test: (req, res) => res.send ({
         params: req.params, 
         body: req.body,
