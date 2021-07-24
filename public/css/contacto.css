@@ -1,6 +1,9 @@
-/**{
+/*{
     box-sizing: border-box;
+
+
 }
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -24,10 +27,13 @@ main {
 
 .fcontacto1{
     width: 100 vw;
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    border-radius: 1.5rem;
+    border-radius: 1.5rem; 
+    
+
+    
 }
 
 #contenedorBotones{
