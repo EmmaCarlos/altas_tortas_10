@@ -1,122 +1,122 @@
 [
-    {
-        "id": 1,
-        "name": "Banana Split",
-        "category": 2,
-        "imagen": "/img/BANANASPLIT.jpg",
-        "precio": 2100,
-        "descripcion": "Torta muy sabrosa con base de banana y dulce de leche. Ideal para acompañar el té. Incluye frutos secos y base de galleta."
-    },
-    {
-        "id": 2,
-        "name": "Bomba",
-        "category": 3,
-        "imagen": "/img/BOMBA.jpg",
-        "precio": 2300,
-        "descripcion": "Torta orientada para dulceros con base brownie, dulce de leche y merengue. Ideal para quedar pipón. Incluye decoración de chips de chocolate."
-    },
-    {
-        "id": 3,
-        "name": "Bonobón",
-        "category": 3,
-        "imagen": "/img/BONOBON.jpg",
-        "precio": 2500,
-        "descripcion": "Torta con gusto clásico argentino con base bonobón. Ideal para descontracturarse. Incluye base crujiente y bonobones gusto original."
-    },
-    {
-        "id": 4,
-        "name": "Coco",
-        "category": 1,
-        "imagen": "/img/COCO.jpg",
-        "precio": 2000,
-        "descripcion": "Torta muy coqueta a base de coco y dulce de leche. Ideal para un desayuno con amigos. Incluye coco rallado y procesado."
-    },
-    {
-        "id": 5,
-        "name": "Dulce de leche y crema",
-        "category": 2,
-        "imagen": "/img/DDLCREMA.jpg",
-        "precio": 2200,
-        "descripcion": "Torta muy argentina con base dulce de leche repostero y crema chantilly. Ideal para un buen postre. Incluye dulce de leche artesanal."
-    },
-    {
-        "id": 6,
-        "name": "Durazno",
-        "category": 1,
-        "imagen": "/img/DURAZNO.jpg",
-        "precio": 2100,
-        "descripcion": "Torta para amantes de la fruta con base de durazno. Ideal para el veranito. Incluye durazno en almibar artesanal."
-    },
-    {
-        "id": 7,
-        "name": "Frutilla",
-        "category": 1,
-        "imagen": "/img/FRUTILLA.jpg",
-        "precio": 2200,
-        "descripcion": "Torta muy tropical con base de frutillas y crema. Ideal para consumir con helado. Incluye frutillas de estancias orgánicas."
-    },
-    {
-        "id": 8,
-        "name": "Havannet",
-        "category": 3,
-        "imagen": "/img/HAVANNET.jpg",
-        "precio": 2300,
-        "descripcion": "Torta para amantes del chocolate con base havannet. Ideal para golosos. Incluye copos de havannets."
-    },
-    {
-        "id": 9,
-        "name": "Key Lime Pie",
-        "category": 2,
-        "imagen": "/img/KEYLIME.jpg",
-        "precio": 2400,
-        "descripcion": "Torta muy fina con base de lima de estación. Ideal para climas cálidos. Incluye ralladura de lima."
-    },
-    {
-        "id": 10,
-        "name": "Lemon Pie",
-        "category": 2,
-        "imagen": "/img/LEMONPIE.jpg",
-        "precio": 2100,
-        "descripcion": "Torta clásica argentina con base de mousse de limón. Ideal para el cafecito. Incluye ralladura de limón."
-    },
-    {
-        "id": 11,
-        "name": "Maracuyá",
-        "category": 1,
-        "imagen": "/img/MARACUYA.jpg",
-        "precio": 2300,
-        "descripcion": "Torta muy refrescante a base de maracuyá. Ideal para comer en pareja. Incluye decoración de chocolate."
-    },
-    {
-        "id": 12,
-        "name": "Merengue",
-        "category": 3,
-        "imagen": "/img/MERENGUE.jpg",
-        "precio": 2400,
-        "descripcion": "Torta muy dulce con base de cookies y merengue. Ideal para un gustito. Incluye merengue artesanal italiano."
-    },
-    {
-        "id": 13,
-        "name": "Nutella",
-        "category": 3,
-        "imagen": "/img/NUTELLA.jpg",
-        "precio": 2500,
-        "descripcion": "Torta para fanáticos del nutella. Ideal para la merienda con amigos. Incluye avellanas silvestres del sur."
-    },
-    {
-        "id": 14,
-        "name": "Oreo",
-        "category": 2,
-        "imagen": "/img/OREO.jpg",
-        "precio": 2400,
-        "descripcion": "Torta característica de la infancia con base de Oreo. Ideal para acompañar la chocolatada. Incluye trocitos de Oreo."
-    },
-    {
-        "id": 15,
-        "name": "Rogel",
-        "category": 3,
-        "imagen": "/img/ROGEL.jpg",
-        "precio": 2300,
-        "descripcion": "Torta de hojaldre con base de dulce de leche y crema. Ideal para un domingo nublado. Incluye merengue auténtico europeo."
-    }
+  {
+    "id": 1,
+    "name": "Banana Split",
+    "category": 2,
+    "imagen": "/img/BANANASPLIT.jpg",
+    "precio": 2100,
+    "descripcion": "Torta muy sabrosa con base de banana y dulce de leche. Ideal para acompañar el té. Incluye frutos secos y base de galleta."
+  },
+  {
+    "id": 2,
+    "name": "Bomba",
+    "category": 3,
+    "imagen": "/img/BOMBA.jpg",
+    "precio": 2300,
+    "descripcion": "Torta orientada para dulceros con base brownie, dulce de leche y merengue. Ideal para quedar pipón. Incluye decoración de chips de chocolate."
+  },
+  {
+    "id": 3,
+    "name": "Bonobón",
+    "category": 3,
+    "imagen": "/img/BONOBON.jpg",
+    "precio": 2500,
+    "descripcion": "Torta con gusto clásico argentino con base bonobón. Ideal para descontracturarse. Incluye base crujiente y bonobones gusto original."
+  },
+  {
+    "id": 4,
+    "name": "Coco",
+    "category": 1,
+    "imagen": "/img/COCO.jpg",
+    "precio": 2000,
+    "descripcion": "Torta muy coqueta a base de coco y dulce de leche. Ideal para un desayuno con amigos. Incluye coco rallado y procesado."
+  },
+  {
+    "id": 5,
+    "name": "Dulce de leche y crema",
+    "category": 2,
+    "imagen": "/img/DDLCREMA.jpg",
+    "precio": 2200,
+    "descripcion": "Torta muy argentina con base dulce de leche repostero y crema chantilly. Ideal para un buen postre. Incluye dulce de leche artesanal."
+  },
+  {
+    "id": 6,
+    "name": "Durazno",
+    "category": 1,
+    "imagen": "/img/DURAZNO.jpg",
+    "precio": 2100,
+    "descripcion": "Torta para amantes de la fruta con base de durazno. Ideal para el veranito. Incluye durazno en almibar artesanal."
+  },
+  {
+    "id": 7,
+    "name": "Frutilla",
+    "category": 1,
+    "imagen": "/img/FRUTILLA.jpg",
+    "precio": 2200,
+    "descripcion": "Torta muy tropical con base de frutillas y crema. Ideal para consumir con helado. Incluye frutillas de estancias orgánicas."
+  },
+  {
+    "id": 8,
+    "name": "Havannet",
+    "category": 3,
+    "imagen": "/img/HAVANNET.jpg",
+    "precio": 2300,
+    "descripcion": "Torta para amantes del chocolate con base havannet. Ideal para golosos. Incluye copos de havannets."
+  },
+  {
+    "id": 9,
+    "name": "Key Lime Pie",
+    "category": 2,
+    "imagen": "/img/KEYLIME.jpg",
+    "precio": 2400,
+    "descripcion": "Torta muy fina con base de lima de estación. Ideal para climas cálidos. Incluye ralladura de lima."
+  },
+  {
+    "id": 10,
+    "name": "Lemon Pie",
+    "category": 2,
+    "imagen": "/img/LEMONPIE.jpg",
+    "precio": 2100,
+    "descripcion": "Torta clásica argentina con base de mousse de limón. Ideal para el cafecito. Incluye ralladura de limón."
+  },
+  {
+    "id": 11,
+    "name": "Maracuyá",
+    "category": 1,
+    "imagen": "/img/MARACUYA.jpg",
+    "precio": 2300,
+    "descripcion": "Torta muy refrescante a base de maracuyá. Ideal para comer en pareja. Incluye decoración de chocolate."
+  },
+  {
+    "id": 12,
+    "name": "Merengue",
+    "category": 3,
+    "imagen": "/img/MERENGUE.jpg",
+    "precio": 2400,
+    "descripcion": "Torta muy dulce con base de cookies y merengue. Ideal para un gustito. Incluye merengue artesanal italiano."
+  },
+  {
+    "id": 13,
+    "name": "Nutella",
+    "category": 3,
+    "imagen": "/img/NUTELLA.jpg",
+    "precio": 2500,
+    "descripcion": "Torta para fanáticos del nutella. Ideal para la merienda con amigos. Incluye avellanas silvestres del sur."
+  },
+  {
+    "id": 14,
+    "name": "Oreo",
+    "category": 2,
+    "imagen": "/img/OREO.jpg",
+    "precio": 2400,
+    "descripcion": "Torta característica de la infancia con base de Oreo. Ideal para acompañar la chocolatada. Incluye trocitos de Oreo."
+  },
+  {
+    "id": 15,
+    "name": "Rogel",
+    "category": 3,
+    "imagen": "/img/ROGEL.jpg",
+    "precio": 2300,
+    "descripcion": "Torta de hojaldre con base de dulce de leche y crema. Ideal para un domingo nublado. Incluye merengue auténtico europeo."
+  }
 ]

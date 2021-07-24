@@ -42,7 +42,13 @@
       <p>
         <%= producto.descripcion %>
       </p>
-
+      <form action= "/productos/eliminar/<%= producto.id %>?_method=DELETE" method="POST">
+        <fieldset>
+          <button type= "submit">
+            ELIMINAR
+          </button>
+        </fieldset>
+      </form>
     </article>
   </section>
 
