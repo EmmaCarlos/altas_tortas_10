@@ -1,0 +1,74 @@
+/**{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+*/
+main {
+    /*font-family: 'Helvetica Neue', Helvetica, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    display: flex;
+    background: #ffc8dd;
+    flex-flow: column-wrap;
+}
+
+.fcontacto{
+    width: 100 vw;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+}
+
+.fcontacto1{
+    width: 100 vw;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+}
+
+#contenedorBotones{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.button{
+    background-color: #03264C;
+    border-radius: .4rem;
+    border: 0;
+    color: white;
+    padding: .5rem;
+}
+
+.redes{
+    width: 100 vw;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fcontacto{
+        width: 50vw;
+    }
+    #fcontacto1 ul{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+  @media (min-width: 1200px) {
+    
+}
