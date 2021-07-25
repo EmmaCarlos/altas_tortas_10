@@ -44,7 +44,7 @@ module.exports = {
     let nuevo = {
         id: productos.length > 0 ? productos[productos.length -1].id + 1: 1, //si el array tiene más de 0 productos, posicion-1 es el ultimo del array, se le suma uno al nuevo, 
         name: data.name,
-        category: parseInt(data.brand), //no seria category?
+        category: parseInt(data.category), //no seria category?
         imagen: "uploads/products/" + file.filename,
         precio: data.precio,
         descripcion: data.descripcion,

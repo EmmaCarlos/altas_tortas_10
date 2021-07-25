@@ -121,10 +121,10 @@
   },
   {
     "id": 16,
-    "name": "FFFFFF",
-    "category": null,
-    "imagen": "uploads/products/torta-imagen-1627244126294.jpg",
+    "name": "AAAAAAAAA",
+    "category": 2,
+    "imagen": "uploads/products/torta-imagen-1627245040473.jpg",
     "precio": "3000",
-    "descripcion": "fffff"
+    "descripcion": "AAAAAAAA"
   }
 ]
