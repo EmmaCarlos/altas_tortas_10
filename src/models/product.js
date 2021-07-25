@@ -64,14 +64,20 @@ module.exports = {
        let productos = this.all();
        let updated = this.one(id);
       // eliminamos la imagen de la carpeta upload
-        fs.unlinkSync(path.resolve(__dirname,"../../public",updated.imagen))
-       productos.map(producto => {
+      
+      let rutaImagen= path.resolve(__dirname,"../../public",updated.imagen)
+      console.log(deleted)
+      if (fs.existsSync(rutaImagen)){fs.unlinkSync(rutaImagen)}
+      
+      
+           
+        productos.map(producto => {
           if(producto.id == id ){
-              producto.name = data.name
-              producto.category = parseInt(data.category)
-              producto.imagen = file.filename //posible error?
-              precio = data.precio
-              descripcion = data.descripcion
+              producto.name = data.name;
+              producto.category = parseInt(data.category);
+              producto.imagen = file != undefined ? file.filename:producto.imagen;
+              producto.precio = data.precio;
+              producto.descripcion = data.descripcion;
               return producto
           }
           return producto
