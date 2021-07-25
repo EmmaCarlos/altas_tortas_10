@@ -23,7 +23,7 @@ router.get("/:category?", productos.index);
 router.get("/detalle/:id", productos.show);
 router.get("/editar/:id", productos.edit);
 router.post("/upload",[upload.single("imagen")],productos.save); //save usa new
-router.put("/editar/:id",[upload.single("imagen")],productos.edit); //update usa edit?
+router.put("/editar/:id",[upload.single("imagen")],productos.update); //update usa edit?
 router.delete("/eliminar/:id",productos.delete);
  
 

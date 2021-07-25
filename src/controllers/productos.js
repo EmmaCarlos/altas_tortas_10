@@ -37,7 +37,7 @@ module.exports = {
     
     update: (req,res) =>{
     let result = product.edit(req.body,req.file,req.params.id)
-    return result == true ? res.redirect("/") : res.send("Error al cargar la informacion") 
+    return result != null ? res.redirect("/productos/detalle/" + result.id) : res.send("Error al cargar la informacion") 
     },
    
     delete: (req,res) => {

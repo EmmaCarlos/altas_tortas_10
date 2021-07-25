@@ -45,7 +45,7 @@ module.exports = {
         id: productos.length > 0 ? productos[productos.length -1].id + 1: 1, //si el array tiene más de 0 productos, posicion-1 es el ultimo del array, se le suma uno al nuevo, 
         name: data.name,
         category: parseInt(data.brand), //no seria category?
-        imagen: "/uploads/products/" + file.filename,
+        imagen: "uploads/products/" + file.filename,
         precio: data.precio,
         descripcion: data.descripcion,
     }    
@@ -64,18 +64,15 @@ module.exports = {
        let productos = this.all();
        let updated = this.one(id);
       // eliminamos la imagen de la carpeta upload
-      
       let rutaImagen= path.resolve(__dirname,"../../public",updated.imagen)
-      console.log(deleted)
-      if (fs.existsSync(rutaImagen)){fs.unlinkSync(rutaImagen)}
-      
-      
-           
+      if (fs.existsSync(rutaImagen) && file != undefined){
+        fs.unlinkSync(rutaImagen)
+      }                 
         productos.map(producto => {
           if(producto.id == id ){
               producto.name = data.name;
               producto.category = parseInt(data.category);
-              producto.imagen = file != undefined ? file.filename:producto.imagen;
+              producto.imagen = file != undefined ? "uploads/products/" + file.filename:producto.imagen; 
               producto.precio = data.precio;
               producto.descripcion = data.descripcion;
               return producto
@@ -83,7 +80,7 @@ module.exports = {
           return producto
       })
       fs.writeFileSync(directory,JSON.stringify(productos,null,2));
-      return true;
+      return updated;
   },
   delete: function (id) {
       const directory = path.resolve(__dirname,"../data","products.json")
