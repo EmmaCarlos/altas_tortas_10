@@ -59,19 +59,22 @@ module.exports = {
 
         res.redirect('/productos/detalle/' + productId);
     },
+  
   edit: function (data,file,id) {
        const directory = path.resolve(__dirname,"../data","products.json")
        let productos = this.all();
        let updated = this.one(id);
+
       // eliminamos la imagen de la carpeta upload
-        fs.unlinkSync(path.resolve(__dirname,"../../public",updated.imagen))
-       productos.map(producto => {
+       ///// fs.unlinkSync(path.resolve(__dirname,"../../public/uploads/products",updated.imagen))
+           
+        productos.map(producto => {
           if(producto.id == id ){
-              producto.name = data.name
-              producto.category = parseInt(data.category)
-              producto.imagen = file.filename
-              precio = data.precio
-              descripcion = data.descripcion
+              producto.name = data.name,
+              producto.category = parseInt(data.category),
+        /////      producto.imagen = file.filename,
+              producto.precio = data.precio,
+              producto.descripcion = data.descripcion
               return producto
           }
           return producto

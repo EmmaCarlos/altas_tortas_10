@@ -121,10 +121,9 @@
   },
   {
     "id": 16,
-    "name": "fff",
-    "category": 1,
-    "imagen": "/uploads/products/torta-file.fieldname-1627171011533.jpg",
-    "precio": "55414414",
-    "descripcion": "11212122"
+    "name": "Tarta de frutillas",
+    "category": 2,
+    "precio": "500",
+    "descripcion": "Tarta de frutillas para prueba"
   }
 ]

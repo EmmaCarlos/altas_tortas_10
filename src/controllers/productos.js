@@ -24,22 +24,27 @@ module.exports = {
     create: (req, res) => res.render("products/create",
     {title: "Crear producto", 
     style: "formregistro"}),
+    
     save: (req,res) => {
     let result = product.new(req.body,req.file)
     return result == true ? res.redirect("/") : res.send("Error al cargar la informacion")},
+    
     edit: (req, res) => res.render("products/edit", 
     {title: "Edicion de producto", 
     style: "formregistro", 
     product: product.oneWithExtra(req.params.id), 
     categories: category.all() }),
+    
     update: (req,res) =>{
     let result = product.edit(req.body,req.file,req.params.id)
     return result == true ? res.redirect("/") : res.send("Error al cargar la informacion") 
     },
+   
     delete: (req,res) => {
         let result = product.delete(req.params.id);
         return result == true ? res.redirect("/") : res.send("Error al cargar la informacion") 
     },
+    
     test: (req, res) => res.send ({
         params: req.params, 
         body: req.body,
