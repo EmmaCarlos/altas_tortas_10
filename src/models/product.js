@@ -62,7 +62,7 @@ module.exports = {
   edit: function (data,file,id) {
        const directory = path.resolve(__dirname,"../data","products.json")
        let productos = this.all();
-        let updated = this.one(id);
+       let updated = this.one(id);
       // eliminamos la imagen de la carpeta upload
         fs.unlinkSync(path.resolve(__dirname,"../../public",updated.imagen))
        productos.map(producto => {
