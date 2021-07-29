@@ -1,9 +1,9 @@
-La entrega del segundo sprint fue, de nuevo, realizada de manera un poco incomunicada. Arrastrando errores llegamos a la entrega de este sprint. Intervinieron docentes y tutores y aun así seguimos trastabillando. Una vez más volvimos a depender la mitad del trabajo en compartir una pantalla, y la otra mitad en hacer todo a última hora durante el fin de semana. Siendo el flujo de trabajo muy desmotivamente y tedioso. Logramos con la ayuda de Edu dividir algunos faltante que teníamos para la entrega, pero la última instancia del sprint quedó sobre la hora y sin las correcciones pertinentes. Deben ajustarse algunas cosas importantes.
+Para este sprint tuvimos menos tiempo como para estresarnos. El viernes hicimos un primer acercamiento, el sábado un avance importante y el domingo una conclusión a las consignas del sprint, entendiendo que aun el sitio carece de estética prolija y que ese área se puede pulir.
 
 Temáticas de dinámica Estrella de Mar:
 
 1. Comenzar a hacer. La implementación de tablero de trabajo y de dailys o weeklys, estimo estará ligado a nuestra capacidad de sectorización del trabajo y equidad de responsabilidad.
-2. Hacer más. Recién en este sprint, casi al final, logramos dividir el trabajo, aunque no haya tenido buenos resultados, a veces hay que tener la predisposición suficiente como para cada integrante hacer su parte, sino la entrega final será inevitablemente un colapso.
+2. Hacer más. Dividir el trabajo, este sprint fue muchas manos en el plato. Con un resultado que consideramos "aceptable".
 3. Continuar haciendo. Aprovechar el tiempo útil y predisposición de los docentes, es viable adelantar partes del trabajo con tiempo e ir avanzando paulatinamente.
 4. Hacer menos. Durante la semana quizás nos es díficil coordinarnos, pero no debería sernos dificil el avanzar individualmente siempre que se pueda, en un contexto de división del trabajo.
-5. Dejar de hacer. Durante la semana entre tareas de las clases y los quehaceres de cada integrante, pareciera no ser una prioridad este trabajo integrador, pareciera no haber interés por cumplir con las entregas en tiempo y forma, mas que cubrir los casilleros básicos de la entrega y atar todo el resto con alambre
+5. Dejar de hacer. Es fundamental que para este sprint que viene las cosas cambien. Las cosas: dejar que se acumulen responsabilidades y lograr un avance constante y progresivo.
