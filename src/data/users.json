@@ -4,19 +4,10 @@
         "nombre": "Marcos Pérez",
         "nombreUsuario": "Marquitos Perez",
         "E-mail": "marcosperez@gmail.com",
-
         "domicilio": "Santa Fe 3215",
         "foto": "/img/AcaVaImgUsuario.jpg",
         "categoryUser": "cliente",
         "password": "Marcos.2003"
-    },
-    {
-        "id": 2,
-        "name": "Juan",
-        "lastName": "Rodriguez",
-        "category": "comprador",
-        "imagen": "/img/AcaVaImgUsuario2.jpg",
-        "Email": "juanrodriguez@gmail.com",
-        "Password": "juanR1234"
     }
+    
 ]

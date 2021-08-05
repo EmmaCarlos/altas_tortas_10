@@ -5,7 +5,7 @@ module.exports = {
     style: null,
     productos:  product.randomProducs() }),
  
-    //index: (req, res) => res.render("home", {title: "Home", style: null }),
+   // index: (req, res) => res.render("home", {title: "Home", style: null }),
     contact:(req, res) => res.render("contact",{title: "Contacto", style: null}),
     search:(req, res) => res.render("products/list"), 
  
