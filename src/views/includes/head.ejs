@@ -15,8 +15,10 @@
     <link href="/css/home2.css" rel="stylesheet">
     <link href="/css/contacto.css" rel="stylesheet">
 
-    <% if (style) { %>
-    <link href="/css/<%= style %>.css" rel="stylesheet">
-    <% } %>
+    <% if (styles.length > 0) { %>
+      <% styles.forEach(style => { %>
+          <link rel="stylesheet" href="<%= style %>">
+      <% }) %>
+  <% } %>
 
   </head>
