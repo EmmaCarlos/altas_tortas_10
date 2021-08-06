@@ -118,13 +118,5 @@
     "imagen": "uploads/products/ROGEL.jpg",
     "precio": 2300,
     "descripcion": "Torta de hojaldre con base de dulce de leche y crema. Ideal para un domingo nublado. Incluye merengue auténtico europeo."
-  },
-  {
-    "id": 16,
-    "name": "bbbbbbbbbb",
-    "category": 3,
-    "imagen": "uploads/products/torta-imagen-1627245465525.jpg",
-    "precio": "3000",
-    "descripcion": "AAAAAAAA"
   }
 ]

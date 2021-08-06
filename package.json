@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon src/index.js -e ejs,css,mjs,js,json"
+    "test": "clear && nodemon src/index.js -e css,ejs,js,json,mjs",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
-    "express-validator": "^6.12.0",
+    "express-validator": "^6.12.1",
     "method-override": "^3.0.0",
     "multer": "^1.4.2"
   },

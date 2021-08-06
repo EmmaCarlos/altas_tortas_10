@@ -17,6 +17,8 @@ Tengo dos hijos perrunos Chihuahuas, Hannah (7) y Sherlock (2), que me son mi in
 
 (3) Me llamo Christian Leonel Pazos tengo 27 años. Soy egresados en tecnicatura superior en analista de sistema en el instituto Raúl Scalabrini Ortiz en la ciudad de buenos aires.  También hice curso de computación en el centro de formación profesional n°10 Raúl Scalabrini Ortiz en la ciudad de Buenos Aires.
 
+(4) Me llamo Carlos Benitez, tengo 31 año, trabajo como administrador de redes en la fuerza federal, soy electronico y eletromecanico , incursionando en el mundo de la programacion. Tengo un curso de antenista/torrista y otro de operador de VANT/DRONE. Toco el violin y soy afionado a la musica clasica. 
+
 TRELLO 3: https://trello.com/b/b1Lj5OnL/grupo-10-altas-tortas-sprint-3
 TRELLO 4: https://trello.com/b/NwLFe2D6/grupo-10-altas-tortas-sprint-4
 
